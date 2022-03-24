@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <header>
-        <nav>
-            <a href="" class="logo"><span class="colorweb">Web</span><span class="colorstudio">Studio</span></a>
-            <ul class="site-nav list">
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="" class="current">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="contact list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+            <div class="container">
+                <nav>
+                    <a href="" class="logo"><span class="colorweb">Web</span><span class="colorstudio">Studio</span></a>
+                    <ul class="site-nav list">
+                        <li><a href="./index.html">Студия</a></li>
+                        <li><a href="./portfolio.html" class="current">Портфолио</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contact list">
+                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
     </header>
     <main>
-        <section>
-            <ul class="list filter">
+    <section>
+    <div class="container">
+        <ul class="list filter">
             <li><button type="button" class="button">Все</button></li>
             <li><button type="button" class="button-bgc">Веб-сайты</button></li>
             <li><button type="button" class="button-bgc">Приложения</button></li>
@@ -101,18 +103,24 @@
                 </a>
             </li>
         </ul>
-        </section>
+    </div>
+    </section>
     </main>
- <footer class="footer">
-       <a href="" class="logo"><span class="colorweb">Web</span><span class="colorstudio-second">Studio</span></a>
-       <address class="footer-address">
-         <p>г. Киев, пр-т Леси Украинки, 26</p>
-       
-            <ul class="contact-footer list">
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footer">
+            <div class="container">
+                <a href="" class="logo"><span class="colorweb">Web</span><span class="colorstudio-second">Studio</span></a>
+                <address class="footer-address">
+                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="contact-footer list">
+                        <li>
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
     </footer>
 </body>
 </html>
