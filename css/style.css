@@ -123,6 +123,7 @@ body {
     margin-top: 0;
     padding-top: 50px;
     margin-bottom: 0px;
+    padding-bottom: 94px;
 }
 
 .section-team h3 {
@@ -206,6 +207,15 @@ body {
     cursor: pointer;
     margin-bottom: 200px;
     }
+    .button-filter {
+    color: #fff;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    }
     .button:hover,
     .button:focus {
         background-color: #188CE8;
@@ -221,6 +231,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     text-decoration: none;
+    margin-top: 38px;
 }
 .filter-title {
     font-weight: 700;
@@ -241,6 +252,10 @@ body {
     color:#fff
 }
 
+.projects {
+    margin-top: 34px;
+    margin-bottom: 150px;
+}
 .projects a{
     text-decoration: none;
 }
