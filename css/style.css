@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -96,6 +96,10 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 200px
+    
 }
 
 /* section */
@@ -109,12 +113,22 @@ body {
     text-transform: uppercase;
 }
 
+.section-text {
+    margin-top: 10px;
+}
+
 .section-team {
     background-color: #F5F4FA;
+    margin-top: 0;
+    padding-top: 50px;
 }
 
 .section-team h3 {
     text-transform:capitalize
+}
+
+.list-advantages {
+    margin-top: 84px;
 }
 .title-box {
     font-weight: 700;
@@ -122,6 +136,10 @@ body {
     line-height: 1.16;
     text-align: center;
     text-transform: none;
+    margin-top: 94px;
+}
+.box-img {
+    padding-top: 50px;
 }
 
 .title-card {
@@ -135,6 +153,18 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+}
+
+.title-comand {
+    background-color: #F5F4FA;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    text-transform: none;
+    margin-top: 188px;
+    padding-top: 94;
+    margin-bottom: 0;
 }
 
 /* footer */
@@ -166,6 +196,7 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-bottom: 200px;
     }
     .button:hover,
     .button:focus {
