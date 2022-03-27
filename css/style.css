@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -36,8 +36,6 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
-    
-    
 }
 
 .logo {
@@ -47,6 +45,8 @@ body {
     line-height: 1.2;
     text-decoration: none;
 }
+
+
 
 .colorweb {
     color: var(--accent-color);
@@ -142,11 +142,16 @@ body {
 }
 
 .section-team {
-    background-color: #F5F4FA;
+    display: flex;
+    
     margin-top: 0;
     padding-top: 50px;
     margin-bottom: 0px;
     padding-bottom: 94px;
+    padding-left: 0px;
+}
+.section-team .item:not(:last-child) {
+    padding-right: 30px;
 }
 
 .section-team h3 {
@@ -170,8 +175,9 @@ body {
     margin-top: 94px;
 }
 .box-img {
-    padding-top: 50px;
+    margin-top: 50px;
     display: flex;
+    padding-left: 0px;
 }
 .box-img .item {
     width: 370px;
@@ -197,7 +203,7 @@ body {
 }
 
 .title-comand {
-    background-color: #F5F4FA;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -207,6 +213,9 @@ body {
     padding-top: 94px;
     margin-bottom: 0;
 }
+.team-bg {
+    background-color: #F5F4FA;
+}
 
 /* footer */
 .footer {
@@ -214,6 +223,7 @@ body {
 }
 .contact-footer {
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 .contact-footer a {
     color: rgba(255, 255, 255, 0.6);
@@ -228,8 +238,9 @@ body {
 }
 .footer-address p {
     color: #FFFFFF;
-    
 }
+
+
 
 /* button */
 .button {
