@@ -154,7 +154,7 @@ header {
 }
 
 .section-text {
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -173,13 +173,11 @@ header {
 .section-team h3 {
   text-transform: capitalize;
 }
-
-.section-team .item img {
+.team-img {
   display: block;
 }
 .section-advantages {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .list-advantages {
   margin-top: 0;
@@ -205,17 +203,16 @@ header {
   text-transform: none;
   padding-bottom: 0;
 }
-.box-img {
+.box-list {
   margin-top: 50px;
   margin-bottom: 0;
   display: flex;
   padding-left: 0px;
 }
-.box-img .item img {
-  width: 370px;
+.box-img {
   display: block;
 }
-.box-img .item:not(:last-child) {
+.box-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -263,7 +260,7 @@ header {
   background-color: var(--background-color);
 }
 .contact-footer {
-  margin-top: 0;
+  margin-top: 9px;
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -271,15 +268,15 @@ header {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.contact-footer li {
-  padding-top: 9px;
+.contact-footer li:not(:first-child) {
+  margin-top: 9px;
 }
 .footer-address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-address p {
   margin-top: 0;
