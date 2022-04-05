@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container main-nav">
         <nav class="main-nav">
           <a href="" class="logo"
@@ -27,60 +27,64 @@
             ><span class="colorstudio">Studio</span></a
           >
           <ul class="site-nav list">
-            <li class="item">
+            <li class="nav-item">
               <a href="./index.html" class="current link-nav">Студия</a>
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a href="./portfolio.html" class="link-nav">Портфолио</a>
             </li>
-            <li class="item"><a href="" class="link-nav">Контакты</a></li>
+            <li class="nav-item"><a href="" class="link-nav">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="baner">
+      <section class="hero">
         <div class="container">
-          <h1 class="baner-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button">Заказать услугу</button>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
         </div>
       </section>
       <!--Преимущества-->
-      <section class="section-advantages">
+      <section class="advantages">
         <div class="container">
-          <ul class="list list-advantages">
-            <li class="item">
-              <h3 class="section-title">Внимание к деталям</h3>
-              <p class="section-text">
+          <ul class="list advantages-list">
+            <li class="advantages-item">
+              <h3 class="advantages-title">Внимание к деталям</h3>
+              <p class="advantages-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
-              <h3 class="section-title">Пунктуальность</h3>
-              <p class="section-text">
+            <li class="advantages-item">
+              <h3 class="advantages-title">Пунктуальность</h3>
+              <p class="advantages-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
-              <h3 class="section-title">Планирование</h3>
-              <p class="section-text">
+            <li class="advantages-item">
+              <h3 class="advantages-title">Планирование</h3>
+              <p class="advantages-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
-              <h3 class="section-title">Современные технологии</h3>
-              <p class="section-text">
+            <li class="advantages-item">
+              <h3 class="advantages-title">Современные технологии</h3>
+              <p class="advantages-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -88,30 +92,30 @@
           </ul>
         </div>
       </section>
-      <!--Бокс-->
-      <section class="section-box">
+      <!--Работы-->
+      <section class="works">
         <div class="container">
-          <h2 class="section-title title-box">Чем мы занимаемся</h2>
-          <ul class="list box-list">
-            <li class="item">
+          <h2 class="works-title">Чем мы занимаемся</h2>
+          <ul class="works-list list">
+            <li class="works-item">
               <img
-                class="box-img"
+                class="works-img"
                 src="./images/box1j.jpg"
                 alt="box1"
                 width="370"
               />
             </li>
-            <li class="item">
+            <li class="works-item">
               <img
-                class="box-img"
+                class="works-img"
                 src="./images/box2j.jpg"
                 alt="box2"
                 width="370"
               />
             </li>
-            <li class="item">
+            <li class="works-item">
               <img
-                class="box-img"
+                class="works-img"
                 src="./images/box3j.jpg"
                 alt="box3"
                 width="370"
@@ -121,63 +125,63 @@
         </div>
       </section>
       <!--Команда-->
-      <section class="section-team team-bg">
+      <section class="team">
         <div class="container">
-          <h2 class="section-title title-comand">Наша команда</h2>
-          <ul class="list list-team">
-            <li class="item">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/img.jpg"
                 alt="img"
                 width="270"
               />
-              <div class="team-name">
-                <h3 class="section-title title-card">Игорь Демьяненко</h3>
-                <p class="comand-text">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-text">Product Designer</p>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/img1.jpg"
                 alt="img1"
                 width="270"
               />
-              <div class="team-name">
-                <h3 class="section-title title-card">Ольга Репина</h3>
-                <p class="comand-text">Frontend Developer</p>
+              <div class="team-card">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="team-text">Frontend Developer</p>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/img2.jpg"
                 alt="img2"
                 width="270"
               />
-              <div class="team-name">
-                <h3 class="section-title title-card">Николай Тарасов</h3>
-                <p class="comand-text">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-text">Marketing</p>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <img
                 class="team-img"
                 src="./images/img3.jpg"
                 alt="img3"
                 width="270"
               />
-              <div class="team-name">
-                <h3 class="section-title title-card">Михаил Ермаков</h3>
-                <p class="comand-text">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-text">UI Designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer footer-pd">
+    <footer class="footer">
       <div class="container">
         <a href="" class="logo"
           ><span class="colorweb">Web</span
