@@ -150,7 +150,12 @@ img {
 }
 
 /* advantages */
-
+.advantages-main-title {
+  display: block;
+  visibility: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .advantages-title {
   color: var(--secondary-text-color);
   font-weight: 700;
@@ -313,11 +318,11 @@ img {
   font-size: 16px;
   line-height: 1.6;
   text-decoration: none;
-  padding-top: 38px;
+
   margin-top: 0;
   margin-bottom: 0;
 }
-.filter-.item:not(:last-child) {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -357,7 +362,6 @@ img {
   color: var(--secondary-text-color);
   border-color: transparent;
   border-radius: 4px;
-  margin-left: 8px;
 }
 /* projects */
 
@@ -365,9 +369,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  padding-top: 34px;
-  padding-bottom: 150px;
-  margin-top: 0;
+
+  margin-top: 50px;
   margin-bottom: 0;
 }
 .projects-item {
