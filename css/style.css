@@ -39,7 +39,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* header */
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -150,12 +164,7 @@ img {
 }
 
 /* advantages */
-.advantages-main-title {
-  display: block;
-  visibility: hidden;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .advantages-title {
   color: var(--secondary-text-color);
   font-weight: 700;
@@ -193,6 +202,9 @@ img {
   text-align: center;
   text-transform: none;
   padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--secondary-text-color);
 }
 .works-list {
   margin-top: 50px;
@@ -214,6 +226,9 @@ img {
   text-align: center;
   text-transform: capitalize;
   padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--secondary-text-color);
 }
 .team-text {
   font-weight: 400;
@@ -231,9 +246,10 @@ img {
   line-height: 1.16;
   text-align: center;
   text-transform: none;
-
+  margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: var(--secondary-text-color);
 }
 .team-list {
   display: flex;
@@ -327,7 +343,6 @@ img {
 }
 
 .filter-title {
-  padding-top: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 700;
@@ -339,7 +354,7 @@ img {
 .filter-text {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 4px;
+  margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -387,6 +402,7 @@ img {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .projects-link {
   text-decoration: none;
