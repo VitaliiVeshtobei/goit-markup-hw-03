@@ -195,6 +195,9 @@ img {
 }
 /* works */
 
+.works {
+  padding-top: 0;
+}
 .works-title {
   font-weight: 700;
   font-size: 36px;
